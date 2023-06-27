@@ -1,429 +1,13 @@
+/* Estilo a las Etiquetas */
+html {
+  height: 100%;
+}
+
 body {
-  font-family: fuente_2;
-  text-shadow: #151515 2px 2px;
-  font-size: 16px;
-  color: #eaeaea;
-  background-color: #9eb7e0;
-}
-
-.body {
-  height: 768px;
-}
-
-/* ------------------------------------------------------------------------------------------------------- */
-/* HEADERS */
-nav {
-  font-family: fuente_1;
-  font-size: 16px;
-  position: fixed;
-  width: 1124px;
-  top: 8px;
-  left: 100px;
-  padding: 10px;
-  background-color: #eaeaea;
-  border: 6px double #5e87cc;
-  z-index: 1;
-}
-
-nav::before {
-position: absolute;
-top: 10px;
-left: 0;
-width: 1144px;
-height: 10;
-border-top: 20px solid #5e87cc;
-z-index: -1; 
-content: "";
-}
-
-nav ul {
-margin: 0;
-}
-
-nav li {
-margin: 0 1px;
-float: left;
-}
-
-nav a {
-  padding: 10px; 
-}
-
-nav li a:hover {
-background-color: #ccb95e;
-}
-/* ------------------------------------------------------------------------------------------------------ */
-
-.index_titulo {
-  position: relative;
-  margin-top: 100px;
-  margin-left: 406px;
-}
-
-.index_ending {
-  position: relative;
-  margin-top: 198px;
-  margin-left: 406px;
-  z-index: 0;
-}
-
-.index_fondo {
-  position: relative;
-  margin-top: -914px;
-  margin-left: -218px;
-  width: 50px;
-  z-index: -1;
-}
-
-.index_fondo img {
-  display: block;
-}
-
-.jugadores_fondo {
-  background-image: url("../imagenes/jugadores_fondo.jpg");
-  background-size: cover;
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-height: 100%;
-  width: 100%;
-  z-index: -1;
-}
-
-.convocatria_fondo {
-  background-image: url("../imagenes/convocatria_fondo.jpg");
-  background-size: cover;
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-height: 100%;
-  width: 100%;
-  z-index: -1;
-}
-
-.equipo_titular_fondo {
-  background-image: url("../imagenes/equipo_titular_fondo.jpg");
-  background-size: cover;
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-height: 100%;
-  min-width: 800px;
-  width: 100%;
-  z-index: -1;
-}
-
-.institucional_texto_1 {
-  position: absolute;
-  top: 90px;
-  left: 30px;
-  padding: 10px;
-  width: 1216px;
-  height: 70px;
-  background-color: #3284a3;
-  border: 6px double #eaeaea;
-  font-size: 20px;
-  text-align: center;
-}
-
-.institucional_texto_2 {
-  position: absolute;
-  right: 0;
-  top: 358px;
-  left: 846px;
-  padding: 10px;
-  margin-right: 20px;
-  width: 400px;
-  height: 207px;
-  background-color: #3284a3;
-  border: 6px double #eaeaea;
-  font-size: 20px;
-}
-
-.institucional_imagenes_1 {
-  position: relative;
-  top: 204px;
-  left: 96px;
-  width: 50px;
-}
-
-.institucional_imagenes_1 img {
-  width: 300px;
-  height: 200px;
-  border: 2px solid #eaeaea;
-}
-
-.institucional_imagenes_1 li {
-  padding: 20px;
-}
-
-.institucional_imagenes_2 {
-  position: relative;
-  max-height: 170px;
-  bottom: 250px;
-  left: 499px;
-  width: 50px;
-}
-
-.institucional_imagenes_2 img {
-  width: 300px;
-  height: 400px; 
-}
-
-.institucional_fondo {
-  background-image: url("../imagenes/institucional_fondo.jpg");
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 100%;
-  min-width: 800px;
-  background-size: cover;
-  z-index: -1;
-}
-
-.contacto_texto_1 {
-  position: absolute;
-  top: 90px;
-  left: 746px;
-  padding: 10px;
-  margin-right: 20px;
-  width: 500px;
-  height: 260px;
-  color: #eaeaea;
-  background-color: #3284a3;
-  border: 6px double #eaeaea;
-  font-size: 20px;
-}
-
-.contacto_texto_2 {
-  position: absolute;
-  top: 412px;
-  left: 746px;
-  padding: 10px;
-  margin-right: 20px;
-  width: 500px;
-  height: 140px;
-  background-color: #3284a3;
-  border: 6px double #eaeaea;
-  font-size: 20px;
-}
-
-.contacto_imagenes {
-  position: absolute;
-  top: 596px;
-  left: 698px;
-}
-
-.contacto_imagenes li {
-  float: left;
-  margin-left: 20px;
-}
-
-.contacto_fondo_ {
-  background-image: url("../imagenes/contacto_fondo.jpg");
-  background-size: cover;
-  min-height: 100%;
-  min-width: 800px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.registro_contenedor {
-  position: relative;
-  display: flex;
-  top: 90px;
-  left: 22px;
-  width: 200px;
-  gap: 40px;
-}
-
-.registro {
-  position: relative;
-  width: 207px;
-  height: 370px;
-  padding-top: 13px;
-  padding-left: 16px;
-  background-color: #286982;
-  border: 6px double #7ebdd6;
-  border-radius: 5px;
-}
-
-.registro_entrada {
-  width: 200px;
-  margin-top: 2px;
-}
-
-.registro_boton {
-  position: relative;
-  top: 4px;
-  margin-bottom: 6px;
-}
-
-.jugadores_contenedor {
-  position: relative;
-  top: 94px;
-  height: 18px;
-}
-
-.convocatorias_contenedor_1 {
-  position: relative;
-  top: 94px;
-  height: 0px;
-}
-.convocatorias_contenedor_2 {
-  position: relative;
-  top: 94px;
-  left: 804px;
-  width: 200px;
-  height: 0px;
-}
-.convocatorias_contenedor_3 {
-  position: relative;
-  top: 94px;
-  height: 0px;
-}
-
-.equipo_titular_contenedor {
-  position: relative;
-  bottom: 325px;
-  left: 804px;
-  width: 200px;
-  height: 0px;
-}
-/* ----------------------------------------------------------------------------------------- */
-/* tablas */
-.tabla_jugadores_1 {
-  position: relative;
-  top: 112px;
-  width: 651px;
-  height: 285px;
-  overflow-y: auto;
-}
-
-.tabla_jugadores_2 {
-  position: relative;
-  bottom: 155px;
-  left: 804px;
-  width: 348px;
-  height: 285px;
-  overflow-y: auto;
-}
-
-
-.tabla_jugadores_3 {
-  position: relative;
-  top: 112px;
-  width: 348px;
-  height: 285px;
-  overflow-y: auto;
-}
-
-.tabla_convocatorias {
-  position: relative;
-  top: 130px;
-  width: 641px;
-  height: 285px;
-  overflow-y: auto;
-}
-
-.tabla_equipo_titular {
-  position: relative;
-  bottom: 574px;
-  left: 804px;
-  width: 337px;
-  overflow-y: auto;
-}
-/* -------------------------------------------------------------------------------------------------- */
-button {
-  font-family: fuente_2;
+  font-family: fuente;
   font-size: 16px;
   text-shadow: #151515 2px 2px;
-  color: #eaeaea;
-  background-color: #5eadcc;
-  border: none;
-  border-radius: 5px;
-}
-
-section button:hover {
-  background-color: #ccb95e;
-}
-
-input {
-  position: relative;
-  width: 183px;
-  outline: none;
-  border: none;
-  border-radius: 5px;
-  font-family: fuente_2;
-  font-size: 16px;
-  color: #151515;
-  background-color: #d4d4d4;
-  border: 2px solid #5eadcc;
-}
-
-::placeholder {
-  color: #151515;
-}
-
-select {
-  position: relative;
-  width: 191px;
-  outline: none;
-  border: none;
-  border-radius: 5px;
-  font-family: fuente_2;
-  font-size: 16px;
-  color: #151515;
-  background-color: #d4d4d4;
-  border: 2px solid #5eadcc;
-}
-  
-footer {
-  font-family: fuente_1;
-  font-size: 16px;
-  position: relative;
-  margin-top: 48px;
-  margin-bottom: 10px;
-  height: 50px;
-  background: #3284a3;
-  border: 6px double #eaeaea;
-  z-index: 5;
-}
-
-footer ul {
-  margin-left: 220px;
-}
-
-footer li {
-  float: left;
-  list-style: none;
-  margin-left: 50px;
-}
-
-th {
-  position: relative;
-  left: 20px;
-  padding: 4px;
-  font-family: fuente_2;
-  font-weight: normal;
-  color: #e0d59e;
-  background-color: #286982;
-  border: 2px solid #7ebdd6;
-  border-radius: 2px;
-}
-
-td {
-  position: relative;
-  left: 20px;
-  padding: 4px;
-  font-family: fuente_2;
-  background-color: #286982;
-  border: 2px solid #7ebdd6;
-  border-radius: 2px;
+  min-height: 100%;
 }
 
 h1 {
@@ -433,372 +17,101 @@ h1 {
   color: #e0d59e;
 }
 
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: #eaeaea;
-  list-style:none;
-}
-
 p {
+  color: #eaeaea;
   margin-bottom: 0px;
   margin-top: 0px;
 }
 
-@font-face {
-  font-family: fuente_1;
-  src: url("../fuente/Kenney Mini Square Mono.ttf");
+/* Estilo a los Contenedores */
+.cuadricula {
+  display: grid;
+  grid-template-columns: 500px;
+  grid-template-rows: 400px;
+  grid-template-areas:
+    "sobre_mi"
+    "habilidades"
+    "footer";
+  text-align: center;
 }
 
-@font-face {
-  font-family: fuente_2;
-  src: url("../fuente/ComicNeue-Regular.ttf");
+.sobre_mi {
+  grid-area: sobre_mi;
 }
 
-@media (max-width: 1000px) {
-  .index_titulo {
-    position: relative;
-    margin-top: 100px;
-    margin-left: 398px;
-  }
-  
-  .index_ending {
-    position: relative;
-    margin-top: 898px;
-    margin-left: 398px;
-    z-index: 0;
-  }
-  
-  .index_fondo {
-    position: relative;
-    margin-top: -913px;
-    margin-left: -226px;
-    width: 50px;
-    z-index: -1;
-  }
-  
-  .index_fondo img {
-    display: block;
-  }
-  footer {
-    font-family: fuente_1;
-    font-size: 19px;
-    background: #3284a3;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 15px;
-    text-align: center;
-    border: 6px double #eaeaea;
-  }
-  footer ul {
-    margin-left: 30px;
-    
-  }
-  
-  footer li {
-    float: left;
-    list-style: none;
-    margin-left: 120px;
-    
-  }
-  .footerequipo{
-    font-family: fuente_1;
-    font-size: 15px;
-    background: #3284a3;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 1px;
-    text-align: center;
-    border: 6px double #eaeaea;
-  }
-  .convocatoriafooter{
-    font-family: fuente_1;
-    font-size: 15px;
-    background: #3284a3;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 1px;
-    text-align: center;
-    border: 6px double #eaeaea;
-  }
-  .footerequipo ul{
-    margin-left: -50px;
-  }
-  .footerjugadores{
-    font-family: fuente_1;
-    font-size: 15px;
-    background: #3284a3;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 1px;
-    text-align: center;
-    border: 6px double #eaeaea;
-    
-  }
-  .footerjugadores ul{
-    margin-left: -50px;
-  }
-  .equipofooter{
-    font-family: fuente_1;
-    font-size: 17px;
-    background: #3284a3;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 1px;
-    text-align: center;
-    border: 6px double #eaeaea;
-    
-  }
-  .equiponav {
-    font-family: fuente_1;
-    font-size: 15px;
-    position: fixed;
-    width: 1124px;
-    top: 8px;
-    left: 50%;
-    transform: translateX(-46%);
-    padding: 10px;
-    background-color: #eaeaea;
-    border: 4px double #5e87cc;
-    z-index: 1;
-  }
-  nav {
-    font-family: fuente_1;
-    font-size: 21px;
-    position: fixed;
-    width: 1500px;
-    top: 8px;
-    left: 51%;
-    transform: translateX(-46%);
-    padding: 10px;
-    background-color: #eaeaea;
-    border: 6px double #5e87cc;
-    z-index: 1;
-  }
-  .jugadoresnav {
-    font-family: fuente_1;
-    font-size: 15px;
-    position: fixed;
-    width: 1500px;
-    top: 8px;
-    left: 51%;
-    transform: translateX(-34%);
-    padding: 8px;
-    background-color: #eaeaea;
-    border: 6px double #5e87cc;
-    z-index: 1;
-  }
-  .convocatorianav{
-    font-family: fuente_1;
-    font-size: 17px;
-    position: fixed;
-    width: 1124px;
-    top: 8px;
-    left: 51%;
-    transform: translateX(-51%);
-    padding: 10px;
-    background-color: #eaeaea;
-    border: 6px double #5e87cc;
-    z-index: 1;
-  }
-  .equiponav{
-    font-family: fuente_1;
-    font-size: 17px;
-    position: fixed;
-    width: 1124px;
-    top: 8px;
-    left: 51%;
-    transform: translateX(-51%);
-    padding: 10px;
-    background-color: #eaeaea;
-    border: 6px double #5e87cc;
-    z-index: 1;
-  }
-  .equiponav::before {
-    position: absolute;
-    top: 6px;
-    left: 0;
-    width: 1500px;
-    height: 10;
-    border-top: 26px solid #5e87cc;
-    z-index: -1; 
-    content: "";
-  }
-  
-  .convocatorianav::before {
-    position: absolute;
-    top: 6px;
-    left: 0;
-    width: 1500px;
-    height: 10;
-    border-top: 26px solid #5e87cc;
-    z-index: -1; 
-    content: "";
-  }
-  .jugadoresnav::before {
-    position: absolute;
-    top: 6px;
-    left: 0;
-    width: 1500px;
-    height: 10;
-    border-top: 22px solid #5e87cc;
-    z-index: -1; 
-    content: "";
-  }
-  nav::before {
-    position: absolute;
-    top: 8px;
-    left: 0;
-    width: 1500px;
-    height: 10;
-    border-top: 30px solid #5e87cc;
-    z-index: -1; 
-    content: "";
-  }
-  
-  .equiponav::before {
-      position: absolute;
-      top: 8px;
-      left: 0;
-      width: 1500px;
-      height: 10;
-      border-top: 25px solid #5e87cc;
-      z-index: -1; 
-      content: "";
+.sobre_mi img {
+  border: 5px solid #409cbf;
+  border-radius: 10px;
+}
+
+.habilidades {
+  grid-area: habilidades;
+  padding-top: 32px;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #286982;
+  border-top: 5px solid #409cbf;
+  margin-top: 32px;
+}
+
+.caja_flexible {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 16px;
+}
+
+.contenedor {
+  position: relative;
+  flex-basis: 100px;
+  flex-grow: 1;
+  background-color: #286982;
+  border-bottom: 5px solid #409cbf;
+  border-radius: 10px;
+}
+
+.contenedor_2 {
+  position: relative;
+  flex-basis: 100px;
+  flex-grow: 1;
+  border-radius: 10px;
+}
+
+.fondo {
+  background-image: url("../img/fondo.png");
+  background-color: #2b4a80;
+  min-height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+/* Las fuentes */
+@font-face {
+  font-family: fuente;
+  src: url("../fuentes/ComicNeue-Regular.ttf");
+}
+
+/* Los Media Query */
+@media (min-width: 500px) {
+  .cuadricula {
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 444px;
+    grid-template-areas:
+      "sobre_mi habilidades"
+      "sobre_mi habilidades"
+      "footer footer";
   }
 
-  .contacto_texto_1 {
-        top: 158px;
-        left: 246px;
-        padding: 10px;
-        margin-right: 20px;
-        width: 700px;
-        height: 560px;
-        color: #eaeaea;
-        background-color: #3284a3;
-        border: 6px double #eaeaea;
-        font-size: 35px;
-  }
-      
-  .contacto_texto_2 {
-        top: 808px;
-        left: 246px;
-        padding: 25px;
-        margin-right: 20px;
-        width: 600px;
-        height: 440px;
-        background-color: #3284a3;
-        border: 6px double #eaeaea;
-        font-size: 40px;
-        margin-bottom: 500px;
-  }
-  .contacto_imagenes {
-        position: absolute;
-        top: 396px;
-        left: 698px;
-  }
-      
-  .contacto_imagenes li {
-        float: right;
-        margin-left: 400px;
-        margin-right: 40px;
-  }
-  .contacto_imagenes ul img {
-        width: 190px;
-        margin-top: 60px;
+  .sobre_mi {
+    align-self: center;
   }
 
-  .institucional_texto_1 {
-    
-    margin-top: 60px;
-    top: 30px;
-    left: 0px;
-    padding: 50px;
-    width: 1216px;
-    height: 120px;
-    background-color: #3284a3;
-    border: 6px double #eaeaea;
-    font-size: 30px;
-    text-align: center;
-  } 
-
-  .institucional_texto_2 {
-    
-    right: 1100px;
-    top: 338px;
-    left: 846px;
-    padding: 10px;
-    margin-right: 20px;
-    width: 400px;
-    height: 450px;
-    background-color: #3284a3;
-    border: 6px double #eaeaea;
-    font-size: 30px;
-  }
-
-  .institucional_imagenes_1 {
-    border-top: 400px;
-   position: relative;
-    top: 144px;
-    left: 96px;
-    width: 50px;
-  }
-
-  .institucional_imagenes_1 img {
-    transform: translate(-15%, 30%);
-   width: 650px;
-   height: 500px;
-  }
-
-  .institucional_imagenes_1 li {
-    padding: 5px;
-  }
-
-  .institucional_imagenes_2 {
-   position: relative;
-   max-height: 170px;
-   bottom: 310px;
-   left: 499px;
-   width: 50px;
-  }
-
-  .institucional_imagenes_2 img {
-    transform: translate(110%, 15%);
-   width: 350px;
-    height: 500px; 
-  }
-
-  .registro_contenedor {
-    width: 700px;
-    flex-wrap: wrap;
-  }
-
-  .tabla {
-    height: 600px;
-  }
-
-  .tabla_jugadores_1 {
-    padding-bottom: 120px;
-  }
-
-  .tabla_jugadores_2 {
-    padding-bottom: 120px;
-  }
-
-  .tabla_equipo_titular {
-    padding-bottom: 120px;
+  .habilidades {
+    padding-top: 0px;
   }
 }
