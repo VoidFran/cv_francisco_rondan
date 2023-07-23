@@ -81,7 +81,7 @@ p {
 }
 
 .fondo {
-  background-image: url("../img/fondo.png");
+  background-image: url("../imagenes/fondo.png");
   background-color: #2b4a80;
   min-height: 100%;
   width: 100%;
